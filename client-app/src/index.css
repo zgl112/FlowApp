@@ -1,0 +1,539 @@
+/* homepage */
+
+#root > div.ui.vertical.center.aligned.segment.homemaster {
+    display: flex; 
+    align-items: center;
+    background-image: url('../src/App/Assets/home.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div{
+    margin-bottom: 70px;
+    height:600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 3px solid rgba(129, 155, 171,44%);
+    background: rgba(173, 95, 33 ,44%);
+  }
+
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > img{
+    margin-top: 90px;
+    width: 200px;
+    display: flex;
+    align-items: center; 
+  }
+
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > h1{
+    font-size: 4em;
+    letter-spacing: 3px; 
+    font-weight: bold;
+    font-family: 'Waiting for the Sunrise', cursive; 
+    margin: 5px 27% auto;
+    width: 4.2em;
+  }
+  
+
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > h2{
+    font-size: 3em;
+    font-family: 'Waiting for the Sunrise', cursive; 
+    letter-spacing: 7px; 
+    font-weight: bold;
+    margin: 20px 9% auto;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10.5em;
+    animation: type 1.5s steps(30, end); 
+  }
+
+  
+  
+@keyframes clickit {
+    0% {opacity: 0}
+    80% {opacity: 0}
+    100% {opacity: 1}
+  }
+  
+  @keyframes type{ 
+    from { width: 22px; } 
+  } 
+  
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > button{
+    margin-top: 25px;
+    color:white;
+    background-color: rgb(36,174,1);
+    animation: clickit 2s
+  }
+
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > button:hover{
+    background-color: rgb(26, 129, 0);
+  }
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > a{ 
+    margin-top: 25px;
+    color:white;
+    background-color: rgb(111, 145, 163);
+    animation: clickit 2s
+  }
+  #root > div.ui.vertical.center.aligned.segment.homemaster > div > a:hover{
+    background-color: rgb(11, 77, 104);
+  }
+
+  /* main player mobile */
+
+ /* homepage mobile */
+
+ #root > div.ui.vertical.center.aligned.segment.homemastermobile {
+  align-items: center;
+  background-image: url('../src/App/Assets/home.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+  padding-top: 100px;
+  height: 100vh;
+}
+html body div#root div.ui.vertical.center.aligned.segment.homemastermobile div.ui.text.container{
+  padding-top: 30px !important;
+  height:380px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid rgba(129, 155, 171,44%);
+  background: rgba(173, 95, 33 ,44%);
+}
+
+html body div#root div.ui.vertical.center.aligned.segment.homemastermobile div.ui.text.container img.ui.centered.image{
+  width: 140px;
+}
+
+
+#root > div.ui.vertical.center.aligned.segment.homemastermobile > div > h1{
+  font-size: 6em;
+  letter-spacing: 3px; 
+  font-weight: bold;
+  font-family: 'Waiting for the Sunrise', cursive; 
+  width: 4.2em;
+  padding-top: -13px !important;
+}
+
+
+#root > div.ui.vertical.center.aligned.segment.homemastermobile > div > h2{
+  font-size: 1.4em;
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-weight: bold;
+  letter-spacing: 3px; 
+
+  margin: 20px 9% auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 1.5s steps(30, end); 
+  padding-bottom: 30px;
+}
+
+
+#root > div.ui.vertical.center.aligned.segment.homemastermobile > div > button{
+  margin-top: 125px;
+  color:white;
+  background-color: rgb(36,174,1);
+  width: 150px;
+  height: 50px;
+  animation: clickit 2s
+}
+
+#root > div.ui.vertical.center.aligned.segment.homemastermobile > div > a{ 
+  margin-top: 25px;
+  color:white;
+  background-color: rgb(111, 145, 163);
+  animation: clickit 2s
+}
+#root > div.ui.vertical.center.aligned.segment.homemaster > div > a:hover{
+  background-color: rgb(11, 77, 104);
+}
+
+
+/* mainplayermobile */
+html body div#root div.ui.container.masterplayermobile{
+  height: 100vh;
+  width: 100%;
+  margin-left: -14px;
+  background-color:#282828;
+  opacity: 100%;
+  margin:0 !important;
+}
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerContent table.ui.table thead tr th{
+  color: white;
+}
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.item img.ui.centered.image{
+  align-items: center;
+  width: 100px;
+}
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.item h1.ui.inverted.header{
+  font-size: 2.4em;
+  letter-spacing: 2px; 
+  font-weight: bold;
+  font-family: 'Waiting for the Sunrise', cursive; 
+  width: 4.2em;
+  margin-left: 180px;
+}
+
+html body div#root div.ui.container.masterplayermobile div.ui.container.playerBar div.ui.grid div.row div.eight.wide.column div.ui.container{
+  width: 100% !important;
+  position: absolute; bottom: 0; width: 100%; margin: 0; padding: 0;
+}
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerBarmobile div.ui.container img.ui.image{
+margin-left: 70px; 
+width: 220px;
+height: 170px; }
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerBarmobile div.ui.container div.item{
+text-align: center; 
+}
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerBarmobile div.ui.container{
+text-align: center;
+margin-bottom: 10px;
+}
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerBarmobile div.ui.container input{
+overflow: hidden;
+width: 220px;
+height :5px;
+-webkit-appearance: none;
+background-color: grey;
+outline: none;
+cursor: pointer;
+}
+
+
+html body div#root div.ui.container.masterplayermobile table.ui.table{
+  background-color: #282828;
+  color: white;
+}
+
+
+
+html body div#root div.ui.container.masterplayermobile table.ui.table tr div.ui.container.playerContent{
+overflow-y:scroll;
+height: 500px;
+}
+  /* ___Mainplayer */
+  #root > div.ui.container.masterplayer{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #181818;
+    opacity: 100%;
+  }
+
+  /* ___Topbar */
+
+  #root > div.ui.container > div.ui.container.topbar{
+    position: absolute;
+    top: 0;
+    left:220px;
+    height: 50px;
+    background: #070707;
+    width: calc(100% - 200px);
+    padding: 11px;
+  }
+
+  #root > div.ui.container.masterplayer > div.ui.container.topbar > div.right.item{
+    margin-left:1510px;
+    margin-right:5px;
+    display: inline;
+    color: orange;
+    
+  }
+  
+  #root > div.ui.container.masterplayer > div.ui.container.topbar > div.ui.active.visible.top.right.pointing.dropdown > i{
+      color: white;
+  }
+  #root > div.ui.container.masterplayer > div.ui.container.topbar > div.ui.top.right.pointing.dropdown{
+    color: orange;
+  }
+ 
+
+/* playlists */
+
+
+  #root > div.ui.container.masterplayer > div.ui.container.playlists{
+    width: 220px;
+    height: 100%;
+    background: #121212;
+    padding: 20px;
+    margin: 0px !important;
+  }
+  #root > div.ui.container.masterplayer > div.ui.container.playlists > div:nth-child(1) > div > img{
+    height: 40px;
+    width:  40px;
+    text-align: center;
+  }
+
+  #root > div.ui.container.masterplayer > div.ui.container.playlists > div:nth-child(1) > div > h1:hover{
+    color: green !important;
+    cursor: click;
+  }
+
+  #root > div.ui.container.masterplayer > div.ui.container.playlists > div:nth-child(1) > div >h1
+  {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size: 1.3em;
+    margin-top: 0px;
+    text-align: center;
+    letter-spacing: 3px; 
+  }
+
+  #root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists >div{
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: left;
+    color: whitesmoke;
+  }
+  #root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists > table{
+    background-color: inherit;
+    color :wheat;
+    overflow-y: scroll;
+  }
+#root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists > table > thead > tr > th{
+    color: orange;
+    background-color: inherit;
+    margin-left: 10px;
+    margin-top: 20px;
+    font: 1.2em sans-serif;
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists > table > tbody > tr > td:hover{
+  cursor: pointer;
+  color:orange;
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists > table > thead > tr:nth-child(2) > th{
+  font: 1.0em sans-serif;
+
+}
+
+ 
+/* right sidebar */
+#root > div.ui.container.masterplayer > div.rightBar{
+    padding-top: 50px;
+    width: 220px;
+    height: 100%;
+    right: 0;
+    background: rgb(30, 30, 30);
+    position: absolute;
+}
+
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.attached.tabular.menu{
+    border-color:#282828;
+    height: 15px;
+    text-align: center;
+} 
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.attached.tabular.menu > a.active.item{
+    background: rgb(30, 30, 30);
+  color: orange;
+  border-color: #282828;
+}
+
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.bottom.attached.segment.active.tab{
+    background: rgb(30, 30, 30);
+    border: none;
+}
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.attached.tabular.menu > a{
+    color: white;
+}
+
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.bottom.attached.segment.active.tab > div{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.bottom.attached.segment.active.tab > div > button{
+    text-align: center;
+    
+    margin-top: 80px;
+    color: white;
+    background-color: rgb(36,174,1);
+}
+
+#root > div.ui.container.masterplayer > div.rightBar > div.ui.bottom.attached.segment.active.tab > div > button:hover{
+    background-color: rgb(26, 129, 0);
+    color: white;
+}
+  /* Content */
+#root > div.ui.container.masterplayer > div.ui.container.playerContent{
+    width: calc(100% - 220px);
+    padding-top: 50px;
+    padding-right: 220px;
+    padding-bottom: 87px;
+    background: #181818;
+    overflow-y: scroll;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerContent > table{
+    background-color: inherit;
+    color :white  
+  }
+#root > div.ui.container.masterplayer > div.ui.container.playerContent > table > tbody > tr > td > div:hover{
+    cursor: pointer;
+    color:orange;
+}
+  
+#root > div.ui.container.mainPlayer > div.ui.container.playerContent > table > thead > tr{
+    background-color: #181818;
+    
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playerContent > table > thead > tr >th{
+    background-color: #181818;
+    color:wheat; 
+}
+ 
+ /* playerbottombar */
+
+ #root > div.ui.container.masterplayer > div.ui.container.playerBar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 87px;
+    background: #282828;
+    z-index: 99;
+    padding: 10px;
+ }
+
+ #root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.row > div > input[type=range]{
+  overflow: hidden;
+  width: 670px;
+  height :5px;
+  -webkit-appearance: none;
+  background-color: grey;
+  outline: none;
+  cursor: pointer;
+ }
+
+ #root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.row > div > input[type=range]::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: rgb(11, 77, 104);
+  margin-top: -1px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.row > div > input[type=range]::-webkit-slider-thumb {
+  width: 1px;
+  -webkit-appearance: none;
+  height: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgb(19, 153, 206);
+  box-shadow: -390px 0 0 390px rgb(19, 153, 206);
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div:nth-child(5){
+  margin-top: 20px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div:nth-child(5) > div > i{
+  margin-top: 6px;
+  margin-right: 5px;
+  padding-right: 17px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.ui.container{
+  text-align: center; 
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.ui.container > i.icon.grey:hover{
+  color:wheat; 
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.ui.container > i.grey.shuffle.icon:hover{
+  color:wheat;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.ui.container > i.grey.icon:hover{
+  color :rgb(36,174,1)!important
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.ui.container > i.icon{
+  margin: 12px!important;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.row{
+  text-align: center;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div:nth-child(5) > div > input[type=range] {
+  overflow: hidden;
+  width: 100px;
+  height :5px;
+  -webkit-appearance: none;
+  background-color: grey;
+  outline: none;
+  cursor: pointer;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div:nth-child(5) > div > input[type=range]::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: #13bba4;
+  margin-top: -1px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div:nth-child(5) > div > input[type=range]::-webkit-slider-thumb {
+  width: 1px;
+  -webkit-appearance: none;
+  height: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  background:  rgb(19, 153, 206);
+  box-shadow: -390px 0 0 390px  rgb(19, 153, 206);
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.eight.wide.column > div.row > div > label{
+  margin:10px;
+  color:rgb(238, 181, 123) ;
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.five.wide.column > img{
+  height: 60px;width: 60px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.five.wide.column > img:hover{
+  border: 1px solid rgb(19, 153, 206);
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.five.wide.column{
+  height: 60px;width: 80px!important;padding:0px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column{
+  padding:0px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div:nth-child(1){
+  font: 1.2em sans-serif;
+  color:wheat;
+  padding-bottom: 5px;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div:nth-child(2){
+  font: 1em sans-serif;
+  color:wheat;
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div.ui.container > div:nth-child(1):hover{
+  color: white;
+  text-decoration: underline;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div:nth-child(2):hover{
+  color: white;
+  text-decoration: underline;
+}
+  #root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div.ui.container{
+  display: inline;
+}
+
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div.ui.container > div:nth-child(1){
+  display: inline;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div.ui.container > div:nth-child(2){
+  display: inline;margin-left:5px
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.eleven.wide.column > div.ui.container > div:nth-child(2):hover{
+  color: whitesmoke;
+}
+#root > div.ui.container.masterplayer > div.ui.container.playerBar > div > div > div.three.wide.column > div > div > div.five.wide.column > img{
+  margin-left: 5px;
+}
+
+
+#root > div.ui.container.masterplayer > div.ui.container.playlists > div.ui.container.lists > table > tbody > tr:nth-child(3) > td{
+  padding: 0px;
+}
